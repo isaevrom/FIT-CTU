@@ -1,15 +1,17 @@
-Zadání spočívá ve vytvoření programu, který bude umět dělat různé manipulace s maticemi různých velikostí.
+# Maticová kalkulačka
 
-Konkrétní požadavky jsou:
-1) sčítání, odčítání, násobení, transpozice matic
-2) sloučení matic, jejich ořezávání
-3) výpočet inverze a determinantu pro čtvercové matice
-4) výpočet hodnosti matice
-5) efektivní paměťová reprezentace jak pro řídké, tak i pro husté matice
-6) Gaussova eliminační metoda -- GEM
-7) ukládání matic do proměnných a následné využívání proměnných ve výpočtech
-8) možnost jak ukládat matice do souboru, tak i nahrávat je z něj
+### Zadání semestrální práce spočívalo ve vytvoření programu, který bude umět dělat různé manipulace s maticemi různých velikostí.
 
+### Funkcionalita:
++ sčítání, odčítání, násobení, transpozice matic
++ sloučení matic, jejich ořezávání
++ výpočet inverze a determinantu pro čtvercové matice
++ výpočet hodnosti matice
++ efektivní paměťová reprezentace jak pro řídké, tak i pro husté matice
++ Gaussova eliminační metoda  -  GEM
++ ukládání matic do proměnných a následné využívání proměnných ve výpočtech
++ možnost jak ukládat matice do souboru, tak i nahrávat je z něj
 
-Polymorfismus je použit při implementaci efektivní reprezentace matic.
-Také je použit u operací pro manipulaci s maticemi.
+### Polymorfismus:
+* použit při implementaci efektivní reprezentace matic 
+* také u operací pro manipulaci s maticemi
