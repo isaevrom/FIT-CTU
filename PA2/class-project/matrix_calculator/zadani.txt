@@ -1,0 +1,15 @@
+Zadání spočívá ve vytvoření programu, který bude umět dělat různé manipulace s maticemi různých velikostí.
+
+Konkrétní požadavky jsou:
+1) sčítání, odčítání, násobení, transpozice matic
+2) sloučení matic, jejich ořezávání
+3) výpočet inverze a determinantu pro čtvercové matice
+4) výpočet hodnosti matice
+5) efektivní paměťová reprezentace jak pro řídké, tak i pro husté matice
+6) Gaussova eliminační metoda -- GEM
+7) ukládání matic do proměnných a následné využívání proměnných ve výpočtech
+8) možnost jak ukládat matice do souboru, tak i nahrávat je z něj
+
+
+Polymorfismus může (a je) být použit při implementaci efektivní reprezentace matic.
+Také může (a také je) použit u operací pro manipulaci s maticemi.
