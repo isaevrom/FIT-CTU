@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Extended boolean - VWM</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- <link rel="icon" type="image/x-icon" href="~/images/borova-logo.svg"> -->
+
+
+    <!-- Main CSS for whole site -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Playfair Display & Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+
+
+</head>
+<body class="d-flex flex-column w-100 h-100 m-0 p-0">
+    <section class="container-fluid landing-container">
+        <div class="container h-100 d-flex flex-column m-auto py-5">
+            <div class="m-auto bg-primary px-4 py-5 rounded dropshadow-default">
+                {% if time %}
+                    <h4 class="text-white">Results of query: {{ query }}</h4>
+                    <h7 class="text-white">Time spent: {{ time }} seconds</h7>
+                    <div class="row mx-0 px-0 pt-3 pb-4 justify-content-center">
+                      <ul class="col-7 list-group">
+                          {% for item in value %}
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    {{ item[0] }}
+                                    <div>
+                                        <a href="../static/data/{{item[0]}}.txt" class="mx-2 download-button">
+                                            <img src="../static/images/download.svg" alt="Download button" class="img-fluid">
+                                        </a>
+                                        <span class="badge badge-primary badge-pill">
+                                            {{ item[1] }}
+                                        </span>
+                                    </div>
+                                  </li>
+                          {% endfor %}
+                      </ul>
+                    </div>
+                {% else %}
+                    <h4 class="text-white">Incorrect query!</h4>
+                {% endif %}
+                <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe reprehenderit obcaecati dolorem magnam perspiciatis enim perferendis praesentium autem nihil rerum, animi rem iste impedit nostrum aperiam veniam itaque distinctio porro?</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+    <script src="site.js"></script>
+</body>
+</html>
