@@ -1,3 +1,0 @@
-# Extended Boolean Model
-
-TODO
