@@ -1,4 +1,4 @@
-# Data Mining class assignments
+# Data Mining
 
 ## Score:
 ### <pre>Task 1: **16.0/12.0**</pre>
