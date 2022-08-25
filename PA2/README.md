@@ -1,6 +1,6 @@
 # Programming and Algorithmics 2
 
-## Points:
+## Score:
 + Task 1: **5.0/5.0** + 0.5
 + Task 2: **5.0/5.0** + 0.5
 + Task 3: **5.0/5.0** + 2.81
