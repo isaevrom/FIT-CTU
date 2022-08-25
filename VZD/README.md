@@ -1,4 +1,4 @@
-# Data Mining assignments
+# Data Mining class assignments
 
 ## Results:
 + Task 1: 100% points
