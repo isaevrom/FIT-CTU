@@ -1,2 +1,2 @@
 # FIT-CTU
-Repository for FIT CTU assignments &amp; projects
+#### Repository for FIT CTU assignments &amp; projects
