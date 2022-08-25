@@ -1,2 +1,2 @@
 # FIT-CTU
-* #### class assignments &amp; projects repository
+#### class assignments &amp; projects repository
