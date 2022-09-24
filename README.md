@@ -7,6 +7,8 @@
 
 - 👨‍💻 About me: **know-it-all guy interested in all spheres of life**
 
+- ❗ Warning: get inspired, CTU FIT fellow, but **be careful with copy-pasting** code for you assignments
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/roman-isaev-540531249" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="roman-isaev-540531249" height="30" width="40" /></a>
